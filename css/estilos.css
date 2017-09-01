@@ -1,0 +1,422 @@
+
+
+a{
+   font-family: 'Tinos', serif;
+}
+
+
+.logo2{
+  width: 115px;
+  margin: auto;
+  height: 92px;
+
+}
+.logo2 img{
+  width: 100%;
+  height: 100%;
+}
+.web{
+  position: relative;
+  top: 26%;
+}
+
+
+.fa-thumbs-o-up{
+ font-family: 'Tinos', serif;
+}
+
+
+h1,h2,h3,h4,h5,{
+  font-family: 'Source Serif Pro', serif;
+}
+
+p,strong,ul,address,span{
+  font-family: 'Source Serif Pro', serif;
+}
+
+
+
+.logo{
+  background-color: #222831;
+  height: 119px;
+}
+
+.menu{
+  background-color: #222831;
+  border-top: 1px solid gray;
+}
+
+
+
+.nav-link:hover{
+  border-bottom: 4px solid #00adb5;
+}
+.nav-link{
+  font-size: 1.3em;
+  border-right: 1px solid white;
+}
+
+#creacion{
+  font-size: 2.1em;
+
+}
+
+/* NOTE: estilos baner */
+.banner10{
+  background-color:  #00adb5;
+  height: 700px;
+  color: white;
+}
+
+.ipad{
+  width: 100%;
+  height: 250px;
+}
+
+.ipad img{
+  width: 100%;
+}
+
+/* NOTE: fin */
+
+
+
+/* NOTE: estilos economia */
+
+.economia{
+  background: white;
+  height: 600px;
+}
+
+.economia h2{
+  font-size: 2.5em;
+}
+
+
+/* NOTE: fin */
+
+
+/* NOTE: foto */
+
+.negro{
+  background: black;
+  opacity: 0.7;
+  height: 100%;
+  width: 100%;
+}
+
+
+.fondo{
+  background-image: url('../img/ht.jpeg');
+  height: 480px;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.fondo .blanco{
+  color: white;
+}
+
+/* NOTE: fin */
+
+
+
+
+/* NOTE: java */
+
+.java{
+  background-color: #11999E;
+  height: 300px;
+}
+
+address{
+  color: white;
+  font-size: 2.4em;
+}
+
+.java  h4{
+  color: white;
+  font-size: 2.9em;
+}
+
+/* NOTE: fin */
+
+.variedad{
+  height: 700px;
+  background: #40514E;
+}
+
+/* NOTE: precios */
+.precios{
+ height: 800px;
+}
+
+/* NOTE: fin */
+
+/* NOTE: number */
+
+.number{
+  height: 200px;
+  background-color: #11999E;
+}
+.number h5{
+  color: white;
+  font-size: 2.3em;
+}
+
+
+.fondo2{
+  background-image: url('../img/fondo2.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 500px;
+}
+
+.fondo2 h5{
+  color: white;
+  font-size: 2.9em;
+}
+
+.fondo2 strong{
+  color: white;
+}
+
+/* NOTE: fin */
+
+
+/* NOTE: footer */
+
+.final{
+  background:
+  height: 200px;
+  background-color: #222831;
+  color: white;
+}
+
+/* NOTE: clientes felices */
+
+.achicar{
+  width: 50%;
+  height: 200px;
+}
+
+.achicar img{
+  width: 100%;
+}
+
+/* NOTE: clientes */
+
+.clientes{
+  height: 870px;
+}
+.text-black{
+  font-size: 2.7em;
+}
+
+/* NOTE: fin */
+
+
+
+
+/* NOTE: como funiona nueva pagina */
+
+.mitad{
+  width: 70%;;
+  margin: auto;
+}
+
+
+.negro20{
+  background: black;
+  opacity: 0.7;
+  height: 100%;
+  width: 100%;
+}
+
+.fondo20{
+  background-image: url('../img/ht.jpeg');
+  height: 680px;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.fondo20 .blanco{
+  color: white;
+}
+
+.color{
+  color: white;
+}
+
+
+.nosotros{
+ background-color:#40514E;
+ height: 800px;
+}
+
+/* NOTE: efectos */
+
+
+/* HACK: sombra abajo */
+
+#efecto{
+  background: #11999E;
+  height: 200px;
+  width: 300px;
+  margin: auto;
+  text-align: center;
+  position: relative;
+  margin-bottom: 40px;
+
+
+}
+
+#efecto > p{
+  position: relative;
+  top: 45%;
+  color: white;
+  text-transform: uppercase;
+}
+
+
+#efecto:before{
+  content: '';
+  position: absolute;
+
+  width: 90%;
+  height: 20px;
+  left: 5%;
+  bottom: -20px;
+  background: radial-gradient(
+      rgba(0, 0, 0, 0.45) 0%,
+      rgba(0, 0, 0, 0) 80%);
+
+       transition: 1s;
+        opacity: 0;
+}
+
+#efecto:hover{
+ transition: 0.5s;
+ transform: translateY(-10px);
+
+ }
+
+ #efecto:hover:before{
+    transform: translateY(10px);
+    opacity: 1;
+ }
+
+
+/* HACK: sombradifuminada */
+
+
+#efecto-10{
+ background: #30E3CA;
+ height: 200px;
+ width: 300px;
+ margin: auto;
+ text-align: center;
+ position: relative;
+ margin-bottom: 40px;
+ box-shadow: 0px 0px 1px black;
+ transition: 0.5s;
+}
+
+#efecto-10 > p{
+  color: white;
+  position: relative;
+  top: 45%;
+  text-transform: uppercase;
+}
+
+#efecto-10:hover{
+   box-shadow: 0px 0px 9px black;
+ }
+
+
+
+/* HACK: sombra radial */
+
+
+#efecto-20{
+  background:#E4F9F5;
+  height: 200px;
+  width: 300px;
+  margin: auto;
+  text-align: center;
+  position: relative;
+  margin-bottom: 40px;
+  box-shadow: 0px 0px 5px black;
+}
+
+#efecto-20 > p{
+  position: relative;
+  top: 45%;
+  text-transform: uppercase;
+  color: black;
+}
+
+
+#efecto-20:before{
+  content: '';
+  position: absolute;
+  width: 90%;
+  height: 20px;
+  left: 5%;
+  top: -20px;
+
+  background: radial-gradient(
+    ellipse at 50% 150%,
+    rgba(0, 0, 0, 0.55) 0%,
+    rgba(0, 0, 0, 0) 80%);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+
+#efecto-20:after{
+  content: '';
+  position: absolute;
+  width: 90%;
+  height: 20px;
+  left: 5%;
+  bottom: -20px;
+
+  background: radial-gradient(
+    ellipse at 50% -50%,
+    rgba(0, 0, 0, 0.55) 0%,
+    rgba(0, 0, 0, 0) 80%);
+      opacity: 0;
+      transition: 0.3s;
+}
+
+#efecto-20:hover:before{
+  opacity: 1;
+}
+
+#efecto-20:hover:after{
+  opacity: 1;
+}
+
+
+/* NOTE: proyectos */
+
+.fondo30{
+  background-image: url('../img/bussines.jpeg');
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 600px;
+}
+
+
+.fondo30 .blanco{
+  color: white;
+
+}
+
+.final2{
+  height: 180px;
+}

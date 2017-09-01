@@ -1,0 +1,68 @@
+@media screen and (max-width:776px) {
+ .responsive{
+   display: none;
+ }
+
+ .java{
+  background-color: #11999E;
+   height: 500px;
+ }
+  .variedad{
+    height: 1350px;
+  }
+ .precios{
+   height: 1750px;
+ }
+
+ .final{
+   height: 100px;
+ }
+ .ipad{
+  display: none;
+ }
+
+ .banner10{
+   height: 500px;
+ }
+
+
+ .clientes{
+   height: 1080px;
+ }
+
+ .achicar{
+   width: 70%;
+   height: 200px;
+ }
+
+ /* NOTE: comofunciona */
+
+ .fondo20{
+   background-image: url('../img/ht.jpeg');
+   height: 1170px;
+   background-position: center;
+   background-size: cover;
+   background-attachment: fixed;
+ }
+
+ .fondo30{
+   height: 1300px;
+ }
+
+ .nosotros{
+  background-color:#40514E;
+  height: 1650px;
+ }
+
+ .necesitamos{
+   height: 700px;
+ }
+
+ .final2{
+   height: 200px;
+ }
+
+
+
+
+}
